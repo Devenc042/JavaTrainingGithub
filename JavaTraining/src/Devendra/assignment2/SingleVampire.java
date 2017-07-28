@@ -8,12 +8,16 @@ public class SingleVampire {
 		SingleVampire vmp = new SingleVampire();
 		
 		
-		for (int i=1000;i<10000;i++) {
-		vmp.IsVampire(i);}
+		for (int i=1000;i<900000;i++) {
+		vmp.IsVampire(i);
+		if(count==100)
+			break;
+		}
 	}
 	
 	
 	static int foundonce = 0;
+	static int count = 0;
 	public void IsVampire(int vn) 
 	{
 		foundonce = 0;
@@ -93,8 +97,11 @@ public class SingleVampire {
     		return; 
     	}//{  System.out.println("Not vampire = "+ new String (clone)); return; } 
     	
-    	System.out.println("Found vampire!!!!!! = "+ vn + " "+ new String (clone)+"    x="+ x + "y="+y); 
+//    	System.out.println("Found vampire!!!!!! = "+ vn + " "+ new String (clone)+"    x="+ x + "y="+y);
     	foundonce =1;
+    	count++;
+    	System.out.println("Found vampire!!!!!! = "+ vn + " "+"    x="+ x + "y="+y + "  count"+count );
+    	
     	return;     	
     }
 

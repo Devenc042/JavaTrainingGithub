@@ -70,7 +70,8 @@ public class Part1_VampireNumber {
         if (length == n) {
             //System.out.println(clone);
             // making two numbers
-            (IsValidNumbers(clone,length));                
+            IsValidNumbers(clone,length);
+            return;
         }
 
 

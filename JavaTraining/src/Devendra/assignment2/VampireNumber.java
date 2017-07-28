@@ -12,15 +12,12 @@ public class VampireNumber {
 	/**
 	 * @param v = vampire number
 	 */
-	
-	
-	
-	
+
 	static int level = 0;
 	
 	public void printVampire() {
 		
-		int TotalVampire = 105;
+		int TotalVampire = 10;
 		int count=0,max_even=10*10-1;
 		for (int i=10;i<=max_even;i++) {
 			
@@ -34,8 +31,7 @@ public class VampireNumber {
 				i = (max_even +1)*10;
 				i = i-1; 				// for i++ after this step
 				max_even= (max_even+1)*100-1;
-				
-				
+				level++;				
 			}
 			
 			if(count ==TotalVampire) {
@@ -47,25 +43,28 @@ public class VampireNumber {
 	}
 	
 	public boolean IsVampire(int v) {
-		int start_level = (int) Math.pow(10, level);
-		int factor1,factor2;
-		for (int i=start_level; i*i<=v ; i++) {
-			
-			if(v%i==0) {
-				factor1 = i;
-				factor2 = v/i;
-				
-				if(ConditionMeet(factor1,factor2)) {
-					return true;
-				}
-			}
-		}
+		
+		
+		
 		return false;
 	}
 	
 	public boolean ConditionMeet(int factor1 , int factor2) {
-		level = 5;
+		int n = (level+1)*2;
+		
+		int digits1 = ValidDigit(factor1);
+		int digits2 = ValidDigit(factor2);
+		
+		if ((digits1 == digits2) && (digits1 == n/2)) {
+			return true;
+		}
 		return false;
+	}
+	
+	int ValidDigit(int factor1) {
+		
+		return 1;
+		
 	}
 	
 	public static void main(String[] args) {

@@ -15,3 +15,12 @@ public class Part4 {
 	}
 
 }
+
+
+// Output:
+
+// 0 coffee arrived!!
+// 1 coffee arrived!!
+// 2 coffee arrived!!
+// 3 coffee arrived!!
+// 4 coffee arrived!!

@@ -13,6 +13,10 @@ public class Part3 {
 
 }
 
+// When you run the program, notice whether the initialization messages from the constructor calls are printed.
+
+// It is not printed.
+
 // if we do Part3 [] array=new Part3[10]; then no objects are created except your array, 
 // each field will be null until you initialize it. 
 // Above only create place to store reference of Part3 Class object. 

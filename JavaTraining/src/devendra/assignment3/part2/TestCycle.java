@@ -1,4 +1,4 @@
-package devendra.assignment3.experiments;
+package devendra.assignment3.part2;
 
 class Cycle{
 	Cycle(){ System.out.println("In cycle class");}
@@ -50,15 +50,3 @@ public class TestCycle {
 		
 		}
 	}
-
-
-
-
-
-
-
-
-
-
-
-

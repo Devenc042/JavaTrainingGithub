@@ -52,8 +52,8 @@ public class TestCycle {
 	}
 
 
-
-
+// Reading
+// http://forum.codecall.net/topic/50451-upcasting-downcasting/
 
 
 

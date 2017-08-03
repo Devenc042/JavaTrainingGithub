@@ -48,7 +48,7 @@ public class TestFactory{
 		
 		int type = 3;
 		int passangers = 11;
-		
+	
 		Cycle c = CycleFactory.create(type);
 		System.out.println(c + "\n");
 		if(c!=null) {c.Riders(passangers);}

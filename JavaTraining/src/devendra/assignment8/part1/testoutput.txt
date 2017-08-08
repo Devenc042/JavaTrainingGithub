@@ -1,0 +1,66 @@
+
+ Input file path: /home/zemoso/Desktop/JavaGit/JavaTraining/src/devendra/assignment8/part1/test.txt
+ Output file path: /home/zemoso/Desktop/JavaGit/JavaTraining/src/devendra/assignment8/part1/testoutput.txt
+ 
+ Count of the occurrence of all the different characters 
+ 
+
+"
+"  7
+"–"  5
+" "  125
+"""  4
+"("  2
+")"  3
+","  7
+"."  5
+"0"  5
+"1"  9
+"2"  4
+"3"  2
+"4"  2
+"5"  1
+"6"  2
+"7"  2
+"8"  7
+"9"  8
+":"  1
+"A"  4
+"B"  1
+"C"  2
+"E"  2
+"H"  1
+"I"  7
+"M"  2
+"N"  1
+"P"  2
+"R"  3
+"S"  3
+"T"  1
+"W"  2
+"["  6
+"]"  6
+"a"  49
+"b"  10
+"c"  15
+"d"  27
+"e"  100
+"f"  13
+"g"  17
+"h"  21
+"è"  1
+"i"  34
+"k"  1
+"l"  31
+"m"  12
+"n"  62
+"o"  29
+"p"  6
+"r"  27
+"s"  30
+"t"  48
+"u"  16
+"v"  2
+"w"  7
+"x"  1
+"y"  6

@@ -3,6 +3,7 @@ package devendra.assignment8.part1;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 
@@ -25,7 +26,14 @@ public class JavaIO {
 
 		// Reading the input file and putting all character in HashMap
 		HashMap<Character, Integer> hmap = new HashMap<Character, Integer>();
-		FileReader fr = new FileReader(args[0]);
+		
+		FileReader fr = null;
+		try {
+			fr = new FileReader(args[0]);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		
 		while ((i = fr.read()) != -1) {
 			if (hmap.containsKey((char) i) == false) {
 				hmap.put((char) i, 1);

@@ -42,7 +42,14 @@ public class Alphabets {
 }
 
 
+
 // Time and space complexity
 
+/*
+Time complextiy = O(n) , where n represent the total number of characters in the input strings
+This is beacuse of for loop running for whole length of input array.
 
+Space complextiy = O(1)
+This is because we are only using a constant space as for storing 26 alphabets in form of boolean array.
+*/
 

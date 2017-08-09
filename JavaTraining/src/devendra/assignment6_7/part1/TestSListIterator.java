@@ -58,6 +58,14 @@ public class TestSListIterator {
 
 }
 
+//Object next( )
+//
+//Returns the next element. Throws NoSuchElementException if there is not a next element.
+
+//void remove( )
+//
+//Removes the current element. Throws IllegalStateException if an attempt is made to call remove( ) that is not preceded by a call to next( ).
+
 /*
 // Output:
 

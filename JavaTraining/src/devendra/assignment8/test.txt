@@ -1,0 +1,7 @@
+Hi, there
+Its me with some space after   
+Thats him with tabs			
+
+A new line before and after
+
+EOF

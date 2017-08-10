@@ -4,9 +4,9 @@ abstract class Rodent {
 	Rodent(){
 		System.out.println("Rodent was here");
 	}	
-	abstract void Eat();
-	abstract void Sleep();
-	abstract void Code();
+	abstract void eat();
+	abstract void sleep();
+	abstract void code();
 }
 
  class Mouse extends Rodent {
@@ -14,9 +14,9 @@ abstract class Rodent {
 	 Mouse(){
 		 System.out.println("Mouse was here");
 	 }	 
-	 void Eat() { System.out.println("Mouse likes to eat");}
-	 void Sleep() { System.out.println("Mouse likes to sleep");}
-	 void Code() { System.out.println("Mouse likes to code");}
+	 void eat() { System.out.println("Mouse likes to eat");}
+	 void sleep() { System.out.println("Mouse likes to sleep");}
+	 void code() { System.out.println("Mouse likes to code");}
 }
  
  class Gerbil extends Rodent {
@@ -24,18 +24,18 @@ abstract class Rodent {
 	 Gerbil(){
 		 System.out.println("Gerbil was here");
 	 }	 
-	 void Eat() { System.out.println("Gerbil likes to eat");}
-	 void Sleep() { System.out.println("Gerbil likes to sleep");}
-	 void Code() { System.out.println("Gerbil likes to code");}
+	 void eat() { System.out.println("Gerbil likes to eat");}
+	 void sleep() { System.out.println("Gerbil likes to sleep");}
+	 void code() { System.out.println("Gerbil likes to code");}
 }
  class Hamster extends Rodent {
 	 
 	 Hamster(){
 		 System.out.println("Hamster was here");
 	 }	 
-	 void Eat() { System.out.println("Hamster likes to eat");}
-	 void Sleep() { System.out.println("Hamster likes to sleep");}
-	 void Code() { System.out.println("Hamster likes to code");}	
+	 void eat() { System.out.println("Hamster likes to eat");}
+	 void sleep() { System.out.println("Hamster likes to sleep");}
+	 void code() { System.out.println("Hamster likes to code");}	
 }
  
  class TestRodent {
@@ -45,12 +45,18 @@ abstract class Rodent {
 			
 			Rodent[] r = new Rodent[3] ;
 			r[0] = new Mouse();
-			r[0].Eat();
+			r[0].eat();
+			r[0].sleep();
+			r[0].code();
 			
 			r[1] = new Gerbil();
-			r[1].Sleep();
+			r[1].eat();
+			r[1].sleep();
+			r[1].code();
 			
 			r[2] = new Hamster();
-			r[2].Code();
+			r[2].eat();
+			r[2].sleep();
+			r[2].code();
 		}
  }

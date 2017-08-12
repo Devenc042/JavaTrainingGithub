@@ -72,3 +72,41 @@ public class PingMedian {
 		}
 	}
 }
+
+/*
+// Output
+
+Enter the ip: 
+www.google.com
+Enter number of ping: 
+7
+PING www.google.com (172.217.27.4) 56(84) bytes of data.
+64 bytes from sin11s02-in-f4.1e100.net (172.217.27.4): icmp_seq=1 ttl=53 time=52.2 ms
+64 bytes from sin11s02-in-f4.1e100.net (172.217.27.4): icmp_seq=2 ttl=53 time=58.9 ms
+64 bytes from sin11s02-in-f4.1e100.net (172.217.27.4): icmp_seq=3 ttl=53 time=49.5 ms
+64 bytes from sin11s02-in-f4.1e100.net (172.217.27.4): icmp_seq=4 ttl=53 time=50.1 ms
+64 bytes from sin11s02-in-f4.1e100.net (172.217.27.4): icmp_seq=5 ttl=53 time=48.2 ms
+64 bytes from sin11s02-in-f4.1e100.net (172.217.27.4): icmp_seq=6 ttl=53 time=48.9 ms
+64 bytes from sin11s02-in-f4.1e100.net (172.217.27.4): icmp_seq=7 ttl=53 time=50.9 ms
+
+--- www.google.com ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6007ms
+rtt min/avg/max/mdev = 48.293/51.288/58.952/3.355 ms
+
+7 packets received out of 7
+
+Median of time:50.1 ms
+
+*/
+
+
+// Reference
+// https://stackoverflow.com/questions/8815012/how-to-run-ping-command-and-get-ping-host-summary
+// http://www.sanfoundry.com/10-ping-command-usage-examples-linux/
+//http://www.rexegg.com/regex-quickstart.html
+//https://stackoverflow.com/questions/4007302/regex-how-to-match-an-optional-character
+//https://stackoverflow.com/questions/3674930/java-regex-meta-character-and-ordinary-dot
+// https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html
+// https://www.tutorialspoint.com/java/java_strings.htm
+// https://stackoverflow.com/questions/11955728/how-to-calculate-the-median-of-an-array
+
